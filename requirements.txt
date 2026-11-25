@@ -1,0 +1,2 @@
+# NovaLang uses only Python Standard Library (Python 3.10+)
+# No external pip dependencies required.

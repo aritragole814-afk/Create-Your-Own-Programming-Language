@@ -1,0 +1,18 @@
+// 02: Variables & Types in NovaLang
+
+// Variable declarations with 'let'
+let language = "NovaLang";
+let release_year = 2026;
+let version = 1.0;
+let is_open_source = true;
+
+print("Language:", language);
+print("Release Year:", release_year);
+print("Version:", version);
+print("Open Source:", is_open_source);
+
+// Variable reassignment
+language = "NovaLang v2.0";
+release_year = release_year + 1;
+print("Updated Language:", language);
+print("Next Year:", release_year);

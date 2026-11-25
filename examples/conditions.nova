@@ -1,0 +1,30 @@
+// 04: Conditions and Logical Operators
+
+let score = 85;
+
+print("Score:", score);
+
+if (score >= 90) {
+    print("Grade: A+ (Outstanding)");
+} else if (score >= 80) {
+    print("Grade: A (Very Good)");
+} else if (score >= 70) {
+    print("Grade: B (Good)");
+} else {
+    print("Grade: Need Improvement");
+}
+
+// Logical Operators: and, or, not
+let has_attendance = true;
+let passed_exams = true;
+
+if (has_attendance and passed_exams) {
+    print("Student is eligible for certificate!");
+}
+
+let is_holiday = false;
+let is_weekend = true;
+
+if (is_holiday or is_weekend) {
+    print("Enjoy your break!");
+}

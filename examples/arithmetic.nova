@@ -1,0 +1,22 @@
+// 03: Arithmetic & Operator Precedence
+
+let a = 20;
+let b = 6;
+
+print("a =", a);
+print("b =", b);
+print("a + b =", a + b);
+print("a - b =", a - b);
+print("a * b =", a * b);
+print("a / b =", a / b);
+print("a % b =", a % b);
+
+// Demonstrating operator precedence (BODMAS / PEMDAS)
+let result1 = 2 + 3 * 4;
+let result2 = (2 + 3) * 4;
+print("2 + 3 * 4 (expect 14):", result1);
+print("(2 + 3) * 4 (expect 20):", result2);
+
+// Unary negation
+let negative = -a;
+print("-a =", negative);

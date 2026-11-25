@@ -1,0 +1,19 @@
+// 06: Fibonacci Sequence Generator
+// Generates the first 10 Fibonacci numbers
+
+print("--- Fibonacci Sequence (First 10 terms) ---");
+
+let n = 10;
+let a = 0;
+let b = 1;
+let i = 0;
+
+while (i < n) {
+    print("Term", i + 1, ":", a);
+    let next_val = a + b;
+    a = b;
+    b = next_val;
+    i = i + 1;
+}
+
+print("Fibonacci generation complete!");

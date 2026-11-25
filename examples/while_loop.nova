@@ -1,0 +1,11 @@
+// 05: While Loop demonstration
+
+let count = 1;
+print("Counting from 1 to 5:");
+
+while (count <= 5) {
+    print("Step:", count);
+    count = count + 1;
+}
+
+print("Loop finished successfully!");

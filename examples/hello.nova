@@ -1,0 +1,5 @@
+// 01: Hello World in NovaLang
+print("====================================");
+print("Hello, World from NovaLang!");
+print("Compiler Design PBL Demonstration");
+print("====================================");
